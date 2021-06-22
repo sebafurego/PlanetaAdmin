@@ -1,0 +1,147 @@
+.grey-line {
+	    background: #f5f5f5;
+	    border-bottom: solid 1px #dfdfdf;
+	    border-top: solid 1px #dfdfdf;
+	    height: 20px;
+}
+
+.tabber {
+	    background: #e8eff3;
+    padding: 10px 0;
+    border-radius: 5px;
+    border: solid 1px #ddd;
+}
+.tab-pad {
+	background: #fff;
+    padding: 10px 0;
+    border-radius: 5px;
+}
+.shuba {
+	overflow: hidden;
+    border: solid 1px #ddd;
+    border-radius: 5px;
+    padding: 2px;
+}
+.shuba img {
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.shuba h6 {
+	font-size: 12px;
+	margin-bottom: 5px;
+}
+.shuba.active {
+	border-color: red;
+}
+.barbox {
+	position: relative;
+}
+.barbox ul.itembar {
+	position: absolute;
+	margin: 0;
+    padding: 5px 0;
+        top: 59px;
+    background: #fff;
+    border-radius: 0 0 5px 5px;
+    border:solid 1px #ddd;
+        width: 100%;
+    z-index: 10;
+}
+.barbox ul.itembar.gr {
+	position: absolute;
+        top: 31px!important;
+}
+.barbox ul.itembar li {
+	margin: 0;
+    padding: 0;
+    list-style: none;
+    padding: 5px 10px;
+}
+.barbox ul.itembar li:hover {
+	background: #f3f3f3;
+}
+.table-weight {
+	font-weight: 600;
+	font-style: italic;
+}
+.data-box {
+	border:solid 1px #ddd;
+	overflow: hidden;
+	padding: 5px;
+	cursor: pointer;
+	width: 30px;
+	border-radius: 4px;
+	text-align: center;
+	
+}
+.data-month {
+	height: 20px;	
+	font-size: 14px;
+	
+}
+.data-day {
+	font-size: 12px;
+	margin: 0 auto;
+	
+}
+.data-box:hover {
+	background: #eee;
+	
+}
+.data-box.active {
+	background: #34b149;
+	color: #fff;
+	border-color: #3d944d;
+	
+}
+.grafic .table-xs td {
+	padding:8px 3px !important;
+}
+.modal-body .form-group {
+	position: relative;
+}
+.chat .dialog {
+	overflow: auto;
+	height: 300px;
+}
+.chat {
+	position: absolute;
+	overflow: hidden;
+	z-index: 10;
+	right: 0;
+	width: 400px;
+}
+
+.barbox {
+    position: relative;
+}
+.barbox ul.itembar {
+    position: absolute;
+    margin: 0;
+    padding: 5px 0;
+    top: 59px;
+    background: #fff;
+    border-radius: 0 0 5px 5px;
+    border:solid 1px #ddd;
+    width: 100%;
+    z-index: 10;
+}
+.barbox ul.itembar.gr {
+    position: absolute;
+    top: 31px!important;
+}
+.barbox ul.itembar li {
+    margin: 0;
+    list-style: none;
+    padding: 5px 10px;
+}
+.barbox ul.itembar li:hover {
+    background: #f3f3f3;
+}
+
+.w150 {
+    width:150px;
+}
+.w200 {
+    width:200px;
+}
